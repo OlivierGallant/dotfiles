@@ -1,13 +1,15 @@
 
 * {
-    font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+    font-family: "Noto Sans Nerd Font", "Roboto Nerd Font Propo", "Noto Sans", "Symbols Nerd Font", sans-serif;
     font-size: 13px;
-    color: #eceff4;
+    color: #f4e9d8; /* warm beige text */
 }
 
 window#waybar {
-    background: rgba(30, 30, 46, 0.8);
-    border-bottom: 2px solid #5e81ac;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(44, 30, 22, 0.85); /* deep earthy brown */
+    border-bottom: 0px solid #c97b4a;   /* terracotta accent */
 }
 
 #workspaces button {
@@ -15,20 +17,22 @@ window#waybar {
     margin: 0 2px;
     border-radius: 6px;
     background: transparent;
-    color: #88c0d0;
+    color: #d2b48c; /* tan, subtle */
 }
 
 #workspaces button.active {
-    background: #5e81ac;
-    color: #eceff4;
+    background: #8b5e3c; /* warm wood brown */
+    color: #f4e9d8;
 }
 
 #clock, #cpu, #memory, #temperature, #battery, #pulseaudio, #network, #tray {
     padding: 0 10px;
     margin: 0 2px;
     border-radius: 6px;
+    background: rgba(92, 64, 51, 0.5); /* muted brown highlight */
 }
 
 #pulseaudio.muted {
-    color: #bf616a;
+    color: #d35f5f; /* brick red for muted state */
 }
+
