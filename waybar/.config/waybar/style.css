@@ -8,14 +8,14 @@
 window#waybar {
     margin-left: 10px;
     margin-right: 10px;
-    background: rgba(44, 30, 22, 0.85); /* deep earthy brown */
+    background: rgba(44, 30, 22, 0.4); /* deep earthy brown */
     border-bottom: 0px solid #c97b4a;   /* terracotta accent */
 }
 
 #workspaces button {
     padding: 0 6px;
     margin: 0 2px;
-    border-radius: 6px;
+    border-radius: 2px;
     background: transparent;
     color: #d2b48c; /* tan, subtle */
 }
@@ -28,8 +28,8 @@ window#waybar {
 #clock, #cpu, #memory, #temperature, #battery, #pulseaudio, #network, #tray {
     padding: 0 10px;
     margin: 0 2px;
-    border-radius: 6px;
-    background: rgba(92, 64, 51, 0.5); /* muted brown highlight */
+    border-radius: 2px;
+    background: rgba(92, 64, 51, 0.25); /* muted brown highlight */
 }
 
 #pulseaudio.muted {
